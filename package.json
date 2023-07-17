@@ -3,12 +3,20 @@
   "version": "1.0.0",
   "description": "O Labook é uma rede social com o objetivo de promover a conexão e interação entre pessoas. Quem se cadastrar no aplicativo poderá criar e curtir publicações.",
   "main": "index.js",
+<<<<<<< HEAD
   "scripts": {
     "start": "node ./build/index.js",
     "build": "tsc",
     "dev": "ts-node-dev ./src/index.ts",
     "test": "jest"
   },
+=======
+"scripts": {
+		"start": "node ./build/index.js",
+		"build": "tsc",
+		"dev": "ts-node-dev ./src/index.ts"
+},
+>>>>>>> 428e2e048518a8ecc391f40cf8a7524d7c19de24
   "repository": {
     "type": "git",
     "url": "git+https://github.com/marcusvrr/projeto-labook-backend.git"

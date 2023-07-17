@@ -1,9 +1,13 @@
-# Projeto backend
-Feito por Marcus Vinicius Ramos Rodrigues.
+# Projeto LabEddit - Frontend
+Projeto de Marcus Vinicius Ramos Rodrigues.
 Visando aplicação de conhecimento em conteúdo adquirido em bootcamp.
 
+<<<<<<< HEAD
 # Projeto LabEddit
 O Labook é uma rede social com o objetivo de promover a conexão e interação entre pessoas. Quem se cadastrar no aplicativo poderá criar e curtir publicações.
+=======
+O Labbedit é uma API de rede social com o objetivo de promover a conexão e interação entre pessoas. Quem se cadastrar no aplicativo poderá criar e curtir publicações.
+>>>>>>> 428e2e048518a8ecc391f40cf8a7524d7c19de24
 
 Agora que temos as bases de criação de APIs e banco de dados, o próximo nível é a implementação de segurança e códigos mais escaláveis. Veremos durante o prazo de entrega desse projeto inúmeros conceitos e formas de desenvolvimento seguindo padrões de design e arquitetura, e seu desafio será unir as funcionalidades com as boas práticas de código.
 
@@ -207,6 +211,29 @@ Caso dê um dislike em um post que tenha dado like, o dislike sobrescreve o like
 
 ### Dislike (funcionalidade 2)
 ```typescript
+// request PUT /posts/:id/like
+// headers.authorization = "token jwt"
+// body JSON
+{
+    "like": false
+}
+
+// response
+// status 200 OK
+```
+
+### Para entender a tabela likes_dislikes
+- no SQLite, lógicas booleanas devem ser controladas via 0 e 1 (INTEGER)
+- quando like valer 1 na tabela é porque a pessoa deu like no post
+    - na requisição like é true
+    
+- quando like valer 0 na tabela é porque a pessoa deu dislike no post
+    - na requisição like é false
+    
+- caso não exista um registro na tabela de relação, é porque a pessoa não deu like nem dislike
+- caso dê like em um post que já tenha dado like, o like é removido (deleta o item da tabela)
+- caso dê dislike em um post que já tenha dado dislike, o dislike é removido (deleta o item da tabela)
+
 // request PUT /posts/:id/like
 // headers.authorization = "token jwt"
 // body JSON
