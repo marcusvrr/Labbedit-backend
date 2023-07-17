@@ -2,12 +2,7 @@
 Projeto de Marcus Vinicius Ramos Rodrigues.
 Visando aplicação de conhecimento em conteúdo adquirido em bootcamp.
 
-<<<<<<< HEAD
-# Projeto LabEddit
-O Labook é uma rede social com o objetivo de promover a conexão e interação entre pessoas. Quem se cadastrar no aplicativo poderá criar e curtir publicações.
-=======
 O Labbedit é uma API de rede social com o objetivo de promover a conexão e interação entre pessoas. Quem se cadastrar no aplicativo poderá criar e curtir publicações.
->>>>>>> 428e2e048518a8ecc391f40cf8a7524d7c19de24
 
 Agora que temos as bases de criação de APIs e banco de dados, o próximo nível é a implementação de segurança e códigos mais escaláveis. Veremos durante o prazo de entrega desse projeto inúmeros conceitos e formas de desenvolvimento seguindo padrões de design e arquitetura, e seu desafio será unir as funcionalidades com as boas práticas de código.
 
