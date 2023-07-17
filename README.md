@@ -1,10 +1,14 @@
-# Projeto LabEddit - Frontend
+# Projeto LabEddit - Backend
 Projeto de Marcus Vinicius Ramos Rodrigues.
 Visando aplicação de conhecimento em conteúdo adquirido em bootcamp.
 
 O Labbedit é uma API de rede social com o objetivo de promover a conexão e interação entre pessoas. Quem se cadastrar no aplicativo poderá criar e curtir publicações.
 
 Agora que temos as bases de criação de APIs e banco de dados, o próximo nível é a implementação de segurança e códigos mais escaláveis. Veremos durante o prazo de entrega desse projeto inúmeros conceitos e formas de desenvolvimento seguindo padrões de design e arquitetura, e seu desafio será unir as funcionalidades com as boas práticas de código.
+
+# Link para repositorio do front
+
+- https://github.com/marcusvrr/Labbedit-frontend
 
 # Conteúdos abordados
 - NodeJS
